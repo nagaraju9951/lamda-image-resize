@@ -7,7 +7,7 @@ This Lambda will be invoked when a file is uploaded to a particular bucket. It w
 Clone the project
 
 ```bash
-  git clone https://github.com/OneLightWebDev/image-resizer-lambda.git
+  git clone https://github.com/nagaraju9951/lamda-image-resize.git
 ```
 
 Install Dependencies
@@ -22,7 +22,7 @@ npm install --arch=x64 --platform=linux --target=16x sharp
 Remember set the `DEST_BUCKET` in your Lambda's "Configuration" tab. To do this, open your Lambda in the AWS Console, select the "Configuration" tab, then click "Environment variables"
 
 ```bash
-DEST_BUCKET=thumbnails-bucket-name
+DEST_BUCKET=nagarajusatyala.xyz  #Replace with your bucket name
 ```
 
 ## Deployment
